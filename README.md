@@ -1,62 +1,58 @@
 <h1 align="center">Nekbakht Zabirov</h1>
 
 <p align="center">
-  <b>iGaming Platform Architect &middot; High-Load Backend Engineer</b><br/>
-  Building casino & betting infrastructure that moves real money under real load.
+  <b>Software Architect &middot; iGaming &middot; High-Load Systems</b><br/>
+  I design and build backend systems that handle money, traffic and failure without blinking.
 </p>
 
 <p align="center">
-  <a href="https://1638.cloud/"><img src="https://img.shields.io/badge/1638.cloud-iGaming%20platform-0A0A0A?style=flat-square" alt="1638.cloud"/></a>
   <a href="https://x.com/nek_zabirov"><img src="https://img.shields.io/badge/X-@nek__zabirov-0A0A0A?style=flat-square&logo=x" alt="X"/></a>
   <img src="https://img.shields.io/badge/Kyiv-Ukraine-0A0A0A?style=flat-square" alt="Kyiv, Ukraine"/>
-  <img src="https://img.shields.io/badge/open%20to-consulting-2EA44F?style=flat-square" alt="Open to consulting"/>
+  <img src="https://img.shields.io/badge/experience-8%2B%20years-0A0A0A?style=flat-square" alt="8+ years"/>
 </p>
 
 ---
 
-### About
+### Who I am
 
-I design and build iGaming platforms end to end: player account management, wallets, payments,
-game aggregation, bonuses, CRM and the infrastructure that runs them. My focus is the part of the
-system where latency, consistency and money meet: every bet, win and rollback has to be fast,
-idempotent and auditable.
+Backend engineer and architect with 8+ years in software, specialising in iGaming and high-load
+distributed systems. I started in mobile (Android, Kotlin Multiplatform) and moved down the stack
+to where the hard problems are: transactional consistency, throughput, latency and reliability
+of systems that process real money in real time.
 
-- **Domain:** online casino, B2B game aggregation, operator platforms, provider integrations
-- **Architecture:** DDD, Clean / Hexagonal Architecture, CQRS, event-driven microservices
-- **Focus:** high-throughput transactional services, wallet consistency, multi-tenant operator setups
-- **Background:** 8+ years of engineering, from mobile (Android / Kotlin Multiplatform) to distributed backends
+I think in domains first and frameworks second. Clean boundaries, explicit contracts and
+event-driven communication are how I keep large systems understandable as they grow.
 
-### What I build
+### What I do
 
-| Area | Scope |
-|---|---|
-| **PAM** | Authentication, sessions, KYC, segmentation, player lifecycle |
-| **Wallet & Payments** | Balances, bet / win / rollback, payment providers, multi-currency |
-| **Game Engine & Aggregation** | Provider integrations (Pragmatic Play, OneGameHub, Pateplay, ...), free spins, round lifecycle |
-| **Engagement** | Bonuses, CRM, retention, player communications |
-| **Back office** | Operator admin, reporting, configuration |
-| **Infrastructure** | Kubernetes, GitOps (ArgoCD), Terraform, multi-operator / multi-brand deployments |
+- **iGaming platforms** &mdash; casino and betting backends: player accounts, wallets, payments,
+  game provider integrations, bonuses and engagement, back-office tooling
+- **High-load backends** &mdash; services built for high RPS, low latency and horizontal scale
+- **Financial-grade transactions** &mdash; idempotency, exactly-once effects, ledgers, reconciliation
+- **Distributed architecture** &mdash; microservices, event-driven design, gRPC contracts, multi-tenant systems
+- **Cloud infrastructure** &mdash; Kubernetes, GitOps, infrastructure as code, observability
+
+### How I build
+
+- Domain-Driven Design, Clean / Hexagonal Architecture, CQRS
+- Event-driven integration over shared databases
+- Contract-first APIs with gRPC and Protobuf
+- Architecture rules enforced by tests, not by convention
+- Observability from day one: metrics, tracing, structured logs
 
 ### Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,kotlin,rust,spring,postgres,redis,rabbitmq,kubernetes,docker,terraform,aws,grafana,prometheus,vue,ts&perline=15" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=java,kotlin,rust,spring,postgres,redis,rabbitmq,kafka,kubernetes,docker,terraform,aws,grafana,prometheus,ts&perline=15" alt="Tech stack"/>
 </p>
 
-**Languages:** Java 21, Kotlin, Rust, TypeScript<br/>
-**Frameworks:** Spring Boot, Ktor, tonic, Vue 3<br/>
-**Communication:** gRPC, Protobuf, RabbitMQ, WebSockets<br/>
+**Languages:** Java, Kotlin, Rust, TypeScript<br/>
+**Frameworks:** Spring Boot, Ktor, tonic, Vue<br/>
+**Messaging & APIs:** gRPC, Protobuf, RabbitMQ, Kafka, WebSockets<br/>
 **Data:** PostgreSQL, Redis<br/>
-**Infra:** Kubernetes, ArgoCD, Terraform, AWS, Docker
+**Infrastructure:** Kubernetes, ArgoCD, Terraform, AWS, Docker, Grafana, Prometheus
 
-### Featured
+### Contact
 
-| Project | Description |
-|---|---|
-| [**IGaming-Game-Engine**](https://github.com/nekzabirov/IGaming-Game-Engine) | Open-source casino engine in Kotlin/Ktor: aggregator integrations, betting lifecycle, free spins, gRPC API. Hexagonal + DDD + CQRS, RabbitMQ event-driven. |
-| [**awesome-igaming**](https://github.com/nekzabirov/awesome-igaming) | Curated list of open-source software, specs and resources for building iGaming, casino and sportsbook platforms. |
-
-### Let's talk
-
-Building or scaling a casino, sportsbook or aggregator platform? Reach out on
-[X](https://x.com/nek_zabirov) or via [1638.cloud](https://1638.cloud/).
+Open to architecture consulting and challenging high-load projects.
+Reach me on [X](https://x.com/nek_zabirov).
